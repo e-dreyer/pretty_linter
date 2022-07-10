@@ -2,6 +2,6 @@
     "scripts": {
     "lint": "eslint . && next lint",
     "lint:fix": "eslint --fix",
-    "format": "prettier --write './**/.{js,jsx,tsx,tsx,css,md,json}' --config ./.prettierrc"
+    "format": "prettier --config .prettierrc.json --write ."
   }
 }
